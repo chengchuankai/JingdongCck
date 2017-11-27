@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="chengchuankai.baway.com.jingdongdemo.activity.MainActivity">
+
+
+
+      <!--  <ImageView
+            android:id="@+id/iv_shouye"
+            android:layout_weight="1"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:src="@mipmap/ac0" />
+
+        <ImageView
+            android:id="@+id/iv_fenlei"
+            android:layout_weight="1"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:src="@mipmap/abw" />
+
+        <ImageView
+            android:id="@+id/iv_find"
+            android:layout_weight="1"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:src="@mipmap/aby" />
+
+        <ImageView
+            android:id="@+id/iv_shopcar"
+            android:layout_weight="1"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:src="@mipmap/abu" />
+
+        <ImageView
+            android:id="@+id/iv_my"
+            android:layout_weight="1"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:src="@mipmap/ac2" />-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <com.hjm.bottomtabbar.BottomTabBar
+            android:id="@+id/btb"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </com.hjm.bottomtabbar.BottomTabBar>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
